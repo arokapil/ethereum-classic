@@ -11,10 +11,10 @@ import (
 
 	"github.com/yvasiyarov/gorelic"
 
-	"github.com/feeleep75/open-ethereum-pool/api"
-	"github.com/feeleep75/open-ethereum-pool/payouts"
-	"github.com/feeleep75/open-ethereum-pool/proxy"
-	"github.com/feeleep75/open-ethereum-pool/storage"
+	"github.com/arokapil/ethereum-classic/api"
+	"github.com/arokapil/ethereum-classic/payouts"
+	"github.com/arokapil/ethereum-classic/proxy"
+	"github.com/arokapil/ethereum-classic/storage"
 )
 
 var cfg proxy.Config

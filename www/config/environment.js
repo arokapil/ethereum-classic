@@ -15,15 +15,15 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '///',
+      ApiUrl: '//54.36.173.29/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://etc.ethteam.com',
-      HttpPort: 8888,
+      HttpHost: 'http://54.36.173.29',
+      HttpPort: 8881,
 
       // Stratum mining endpoint
-      StratumHost: 'etc.ethteam.com',
-      StratumPort: 8008,
+      StratumHost: '54.36.173.29',
+      StratumPort: 8007,
 
       // Fee and payout details
       PoolFee: '1%',
@@ -38,12 +38,12 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = 'http://ethteam.com:8080/'
-    // ENV.APP.LOG_RESOLVER = true;
-    // ENV.APP.LOG_ACTIVE_GENERATION = true;
-    // ENV.APP.LOG_TRANSITIONS = true;
-    // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
-    // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.APP.ApiUrl = 'http://54.36.173.29:8089/'
+    ENV.APP.LOG_RESOLVER = true;
+    ENV.APP.LOG_ACTIVE_GENERATION = true;
+    ENV.APP.LOG_TRANSITIONS = true;
+    ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
+    ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
   if (environment === 'test') {

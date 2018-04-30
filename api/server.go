@@ -12,8 +12,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/feeleep75/open-ethereum-pool/storage"
-	"github.com/feeleep75/open-ethereum-pool/util"
+	"github.com/arokapil/ethereum-classic/storage"
+	"github.com/arokapil/ethereum-classic/util"
 )
 
 type ApiConfig struct {
